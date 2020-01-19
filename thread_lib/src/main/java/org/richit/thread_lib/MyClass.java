@@ -12,9 +12,17 @@ public class MyClass {
 
     public static void main(String[] args) {
 
-        heading("Programme Started");
+        runSimutaneously();
+
     }
 
+    private static void runSimutaneously() {
+        heading( "Runner Class Started" );
+        Runner runner1 = new Runner();
+        runner1.start();
 
+        Runner runner2 = new Runner();
+        runner2.start();
+    }
 
 }
