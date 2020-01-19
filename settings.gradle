@@ -1,0 +1,2 @@
+include ':app', ':thread_lib'
+rootProject.name='Thread_1 Java Practice'
