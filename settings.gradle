@@ -1,2 +1,2 @@
-include ':app', ':thread_lib', ':thread_demo2_lib'
+include ':app', ':thread_lib', ':thread_demo2_lib', ':thread_lib3'
 rootProject.name='Thread_1 Java Practice'
